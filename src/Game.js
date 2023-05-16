@@ -59,9 +59,9 @@ function drawGameEnd() {
       text = "Game Over";
     }
     ctx.fillStyle = "black";
-    ctx.fillRect(0, canvas.height/3.2 , canvas.width, 80);
+    ctx.fillRect(0, canvas.height / 3.2, canvas.width, 180);
 
-    ctx.font='70px comic sans';
+    ctx.font = "70px comic sans";
     const gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
     gradient.addColorStop("0", "magenta");
     gradient.addColorStop("0.5", "blue");

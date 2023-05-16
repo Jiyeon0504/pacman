@@ -7,10 +7,10 @@
     <title>Pac-Man</title>
     <style>
       @import url("https://fonts.cdnfonts.com/css/comic-sans");
-    
-    .main{
-      padding-top: 5%;
-    }
+
+      .main {
+        padding-top: 5%;
+      }
 
       #gameCanvas {
         box-shadow: 10px 10px 20px rgb(223, 223, 223);
@@ -22,7 +22,6 @@
         color: rgb(149, 103, 255);
       }
       body {
-    
         margin: 0 auto;
 
         display: flex;
@@ -31,7 +30,7 @@
         height: 100vh;
         background-image: url("images/back.jpg");
         /* background-size: cover; */
-         
+
         /* linear-gradient( 
           0deg,
           rgb(247, 220, 255) 0%,
@@ -39,7 +38,7 @@
         ); */
       }
 
-      #restart{
+      #restart {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -48,18 +47,18 @@
         width: 150px;
         height: 50px;
         color: white;
-
       }
     </style>
   </head>
   <body>
     <div class="main">
-      <div id="h1">Pac-Man</div> <br><br>
-      <canvas id="gameCanvas">    
-      </canvas>
-      <br><br><br><br>
-      <button id="restart" onclick="window.location.reload()">Game Restart</button>
-
+      <div id="h1">Pac-Man</div>
+      <br /><br />
+      <canvas id="gameCanvas"> </canvas>
+      <br /><br /><br /><br />
+      <button id="restart" onclick="window.location.reload()">
+        Game Restart
+      </button>
     </div>
     <script src="src/Game.js" type="module"></script>
   </body>
